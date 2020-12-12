@@ -1,0 +1,229 @@
+:root {
+    --main-primary-color: #3e8cb6;
+    --main-secundary-color: #f89500;
+    font-family: 'Roboto-Light', sans-serif;
+}
+
+textarea,
+input,
+select {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+body {
+    background: #F4F4F4 !important;
+}
+
+body .topo {
+    background: var(--main-primary-color);
+    height: 300px;
+}
+
+header .logo-top {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.user-logad {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.user-logad p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.user-logad a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.user-logad :hover {
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .header-empresa {
+        text-align: center;
+        height: 50%;
+    }
+    .header-empresa-login {
+        top: -30px;
+    }
+    .header-empresa-login .login {
+        text-align: center;
+        float: none;
+    }
+}
+
+header .login {
+    float: right;
+}
+
+.btn-login {
+    transition: all 0.5s 7s ease-in-out, all 0.5s 0s ease;
+    border: 1px solid #fff;
+    width: 225px;
+    height: 50px;
+    color: var(--main-primary-color);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.btn-login:hover {
+    transition: all 0.5s 7s ease-in-out, all 0.5s 0s ease;
+    opacity: 0.8;
+    width: 230px;
+    height: 55px;
+    background: #4498c5;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.modal-content {
+    border: none;
+    margin: 0px;
+}
+
+header .modal-footer {
+    margin: 0px;
+    border: none;
+}
+
+.modal-body label {
+    font-size: 20px;
+    color: var(--main-primary-color);
+}
+
+.modal-body input {
+    height: 50px;
+    border-color: var(--main-primary-color);
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    font-size: 20px;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+
+/*MAIN*/
+
+main {
+    border-top: 2px solid var(--main-secundary-color);
+}
+
+.name-empresa {
+    text-align: center;
+}
+
+.name-empresa h2 {
+    font-size: 45px;
+    color: var(--main-secundary-color);
+}
+
+.infos-empresa {
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.infos-empresa p {
+    margin: 0px;
+    text-align: center;
+    font-size: 1em !important;
+}
+
+.card-item {
+    background: #fff;
+    margin-top: 20px;
+    height: 75px;
+    width: 100%;
+}
+
+.card-img,
+.card-img-top {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    transition: all 0.5s 7s ease-in-out, all 0.5s 0s ease;
+    color: #fff;
+    background-color: var(--main-secundary-color);
+    border-color: var(--main-secundary-color);
+}
+
+.btn-primary:hover {
+    transition: all 0.5s 7s ease-in-out, all 0.5s 0s ease;
+    border-radius: 0px;
+    color: #fff;
+    background-color: var(--main-secundary-color);
+    border-color: var(--main-secundary-color);
+    opacity: 0.8;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    transition: all 0.5s 7s ease-in-out, all 0.5s 0s ease;
+    border-radius: 0px;
+    color: #fff;
+    background-color: var(--main-secundary-color);
+    border-color: var(--main-secundary-color);
+    opacity: 0.8;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    transition: all 0.5s 7s ease-in-out, all 0.5s 0s ease;
+    border-radius: 0px;
+    color: #fff;
+    background-color: var(--main-secundary-color);
+    border-color: var(--main-secundary-color);
+    opacity: 0.8;
+}
+
+.card {
+    border-color: var(--main-secundary-color);
+}
+
+.page-footer {
+    margin-top: 50px;
+    text-align: center;
+    background: var(--main-primary-color);
+    color: #fff;
+    border-top: 2px solid var(--main-secundary-color);
+}
+
+.page-footer i,
+a {
+    color: #fff;
+}
+
+.page-footer a:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.pb-5,
+.py-5 {
+    padding-bottom: 0rem!important;
+}
